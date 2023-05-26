@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AABDD0C7274FBE3283BFC52 /* Pods_flutterBoost_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF1819CC0592FCD9C8FB26 /* Pods_flutterBoost_swiftTests.framework */; };
+		5B49BA099403A8F1AD25BCB4 /* Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594A792FA8D55A18FAC05CDC /* Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework */; };
+		707CE916550838D1048FB320 /* Pods_flutterBoost_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A244B5A24E3C7A96CBD3EE04 /* Pods_flutterBoost_swift.framework */; };
+		968ED3E92A1F75BC00304052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED3E82A1F75BC00304052 /* AppDelegate.swift */; };
+		968ED3ED2A1F75BC00304052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED3EC2A1F75BC00304052 /* ViewController.swift */; };
+		968ED3F02A1F75BC00304052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968ED3EE2A1F75BC00304052 /* Main.storyboard */; };
+		968ED3F22A1F75BE00304052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968ED3F12A1F75BE00304052 /* Assets.xcassets */; };
+		968ED3F52A1F75BE00304052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968ED3F32A1F75BE00304052 /* LaunchScreen.storyboard */; };
+		968ED4002A1F75BE00304052 /* flutterBoost_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED3FF2A1F75BE00304052 /* flutterBoost_swiftTests.swift */; };
+		968ED40A2A1F75BF00304052 /* flutterBoost_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4092A1F75BF00304052 /* flutterBoost_swiftUITests.swift */; };
+		968ED40C2A1F75BF00304052 /* flutterBoost_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED40B2A1F75BF00304052 /* flutterBoost_swiftUITestsLaunchTests.swift */; };
+		968ED41B2A1F7AD100304052 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED41A2A1F7AD100304052 /* HomeViewController.swift */; };
+		968ED41E2A1F7F8400304052 /* BoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED41D2A1F7F8400304052 /* BoostDelegate.swift */; };
+		968ED4452A208B1D00304052 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4202A208B1C00304052 /* ConstraintMultiplierTarget.swift */; };
+		968ED4462A208B1D00304052 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4212A208B1C00304052 /* LayoutConstraintItem.swift */; };
+		968ED4472A208B1D00304052 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4222A208B1C00304052 /* ConstraintMakerPrioritizable.swift */; };
+		968ED4482A208B1D00304052 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4232A208B1C00304052 /* ConstraintDescription.swift */; };
+		968ED4492A208B1D00304052 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4242A208B1C00304052 /* ConstraintAttributes.swift */; };
+		968ED44A2A208B1D00304052 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4252A208B1C00304052 /* ConstraintViewDSL.swift */; };
+		968ED44B2A208B1D00304052 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4262A208B1C00304052 /* ConstraintPriorityTarget.swift */; };
+		968ED44C2A208B1D00304052 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4272A208B1C00304052 /* ConstraintInsets.swift */; };
+		968ED44D2A208B1D00304052 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4282A208B1C00304052 /* ConstraintMakerFinalizable.swift */; };
+		968ED44E2A208B1D00304052 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4292A208B1C00304052 /* ConstraintDSL.swift */; };
+		968ED44F2A208B1D00304052 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42A2A208B1C00304052 /* ConstraintMakerExtendable.swift */; };
+		968ED4502A208B1D00304052 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42B2A208B1C00304052 /* ConstraintPriority.swift */; };
+		968ED4512A208B1D00304052 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42C2A208B1C00304052 /* ConstraintInsetTarget.swift */; };
+		968ED4522A208B1D00304052 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42D2A208B1C00304052 /* ConstraintDirectionalInsetTarget.swift */; };
+		968ED4532A208B1D00304052 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42E2A208B1C00304052 /* ConstraintMakerRelatable+Extensions.swift */; };
+		968ED4542A208B1D00304052 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED42F2A208B1C00304052 /* ConstraintConfig.swift */; };
+		968ED4552A208B1D00304052 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4302A208B1C00304052 /* UILayoutSupport+Extensions.swift */; };
+		968ED4562A208B1D00304052 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4312A208B1C00304052 /* ConstraintView.swift */; };
+		968ED4572A208B1D00304052 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4322A208B1C00304052 /* ConstraintLayoutGuide.swift */; };
+		968ED4582A208B1D00304052 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4332A208B1C00304052 /* ConstraintLayoutSupport.swift */; };
+		968ED4592A208B1D00304052 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4342A208B1C00304052 /* Typealiases.swift */; };
+		968ED45A2A208B1D00304052 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4352A208B1C00304052 /* ConstraintConstantTarget.swift */; };
+		968ED45B2A208B1D00304052 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4362A208B1C00304052 /* ConstraintOffsetTarget.swift */; };
+		968ED45C2A208B1D00304052 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4372A208B1C00304052 /* ConstraintMakerEditable.swift */; };
+		968ED45D2A208B1D00304052 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4382A208B1C00304052 /* ConstraintMaker.swift */; };
+		968ED45E2A208B1D00304052 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4392A208B1C00304052 /* ConstraintRelation.swift */; };
+		968ED45F2A208B1D00304052 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43A2A208B1C00304052 /* ConstraintLayoutGuideDSL.swift */; };
+		968ED4602A208B1D00304052 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43B2A208B1C00304052 /* ConstraintView+Extensions.swift */; };
+		968ED4612A208B1D00304052 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43C2A208B1C00304052 /* ConstraintItem.swift */; };
+		968ED4622A208B1D00304052 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43D2A208B1C00304052 /* Constraint.swift */; };
+		968ED4632A208B1D00304052 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43E2A208B1C00304052 /* Debugging.swift */; };
+		968ED4642A208B1D00304052 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED43F2A208B1C00304052 /* ConstraintRelatableTarget.swift */; };
+		968ED4652A208B1D00304052 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4402A208B1C00304052 /* LayoutConstraint.swift */; };
+		968ED4662A208B1D00304052 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4412A208B1C00304052 /* ConstraintLayoutGuide+Extensions.swift */; };
+		968ED4672A208B1D00304052 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4422A208B1C00304052 /* ConstraintDirectionalInsets.swift */; };
+		968ED4682A208B1D00304052 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4432A208B1C00304052 /* ConstraintLayoutSupportDSL.swift */; };
+		968ED4692A208B1D00304052 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968ED4442A208B1C00304052 /* ConstraintMakerRelatable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968ED3FC2A1F75BE00304052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968ED3DD2A1F75BC00304052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968ED3E42A1F75BC00304052;
+			remoteInfo = flutterBoost_swift;
+		};
+		968ED4062A1F75BF00304052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968ED3DD2A1F75BC00304052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968ED3E42A1F75BC00304052;
+			remoteInfo = flutterBoost_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DDB824AB53CC5C7EE7E6842 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swift-flutterBoost_swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swift-flutterBoost_swiftUITests/Pods-flutterBoost_swift-flutterBoost_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		594A792FA8D55A18FAC05CDC /* Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A12257D19E5FD6F57EAE1A /* Pods-flutterBoost_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swift.debug.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swift/Pods-flutterBoost_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		78B6BF86E41B7FF9E78FA59D /* Pods-flutterBoost_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swiftTests/Pods-flutterBoost_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACF1819CC0592FCD9C8FB26 /* Pods_flutterBoost_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flutterBoost_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968ED3E52A1F75BC00304052 /* flutterBoost_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterBoost_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		968ED3E82A1F75BC00304052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		968ED3EC2A1F75BC00304052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		968ED3EF2A1F75BC00304052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		968ED3F12A1F75BE00304052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968ED3F42A1F75BE00304052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		968ED3F62A1F75BE00304052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968ED3FB2A1F75BE00304052 /* flutterBoost_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flutterBoost_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968ED3FF2A1F75BE00304052 /* flutterBoost_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flutterBoost_swiftTests.swift; sourceTree = "<group>"; };
+		968ED4052A1F75BF00304052 /* flutterBoost_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flutterBoost_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968ED4092A1F75BF00304052 /* flutterBoost_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flutterBoost_swiftUITests.swift; sourceTree = "<group>"; };
+		968ED40B2A1F75BF00304052 /* flutterBoost_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flutterBoost_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		968ED41A2A1F7AD100304052 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		968ED41D2A1F7F8400304052 /* BoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostDelegate.swift; sourceTree = "<group>"; };
+		968ED4202A208B1C00304052 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		968ED4212A208B1C00304052 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		968ED4222A208B1C00304052 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		968ED4232A208B1C00304052 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		968ED4242A208B1C00304052 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		968ED4252A208B1C00304052 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		968ED4262A208B1C00304052 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		968ED4272A208B1C00304052 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		968ED4282A208B1C00304052 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		968ED4292A208B1C00304052 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		968ED42A2A208B1C00304052 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		968ED42B2A208B1C00304052 /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		968ED42C2A208B1C00304052 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		968ED42D2A208B1C00304052 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		968ED42E2A208B1C00304052 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		968ED42F2A208B1C00304052 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		968ED4302A208B1C00304052 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		968ED4312A208B1C00304052 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		968ED4322A208B1C00304052 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		968ED4332A208B1C00304052 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		968ED4342A208B1C00304052 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		968ED4352A208B1C00304052 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		968ED4362A208B1C00304052 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		968ED4372A208B1C00304052 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		968ED4382A208B1C00304052 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		968ED4392A208B1C00304052 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		968ED43A2A208B1C00304052 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		968ED43B2A208B1C00304052 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		968ED43C2A208B1C00304052 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		968ED43D2A208B1C00304052 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		968ED43E2A208B1C00304052 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		968ED43F2A208B1C00304052 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		968ED4402A208B1C00304052 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		968ED4412A208B1C00304052 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		968ED4422A208B1C00304052 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		968ED4432A208B1C00304052 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		968ED4442A208B1C00304052 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		A244B5A24E3C7A96CBD3EE04 /* Pods_flutterBoost_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flutterBoost_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDFD03FDA17CF0C9BAE0CB1 /* Pods-flutterBoost_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swift.release.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swift/Pods-flutterBoost_swift.release.xcconfig"; sourceTree = "<group>"; };
+		B9A452DB5D5B9334FB4DF089 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swift-flutterBoost_swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swift-flutterBoost_swiftUITests/Pods-flutterBoost_swift-flutterBoost_swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6B8066AD431C539D001BB5 /* Pods-flutterBoost_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterBoost_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-flutterBoost_swiftTests/Pods-flutterBoost_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968ED3E22A1F75BC00304052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707CE916550838D1048FB320 /* Pods_flutterBoost_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED3F82A1F75BE00304052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AABDD0C7274FBE3283BFC52 /* Pods_flutterBoost_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED4022A1F75BF00304052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B49BA099403A8F1AD25BCB4 /* Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149CA78A17C5B38A85E61B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74A12257D19E5FD6F57EAE1A /* Pods-flutterBoost_swift.debug.xcconfig */,
+				ACDFD03FDA17CF0C9BAE0CB1 /* Pods-flutterBoost_swift.release.xcconfig */,
+				B9A452DB5D5B9334FB4DF089 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.debug.xcconfig */,
+				4DDB824AB53CC5C7EE7E6842 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.release.xcconfig */,
+				78B6BF86E41B7FF9E78FA59D /* Pods-flutterBoost_swiftTests.debug.xcconfig */,
+				BE6B8066AD431C539D001BB5 /* Pods-flutterBoost_swiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93AB0A8C9C30C2EDB06090C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A244B5A24E3C7A96CBD3EE04 /* Pods_flutterBoost_swift.framework */,
+				594A792FA8D55A18FAC05CDC /* Pods_flutterBoost_swift_flutterBoost_swiftUITests.framework */,
+				7ACF1819CC0592FCD9C8FB26 /* Pods_flutterBoost_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968ED3DC2A1F75BC00304052 = {
+			isa = PBXGroup;
+			children = (
+				968ED3E72A1F75BC00304052 /* flutterBoost_swift */,
+				968ED3FE2A1F75BE00304052 /* flutterBoost_swiftTests */,
+				968ED4082A1F75BF00304052 /* flutterBoost_swiftUITests */,
+				968ED3E62A1F75BC00304052 /* Products */,
+				149CA78A17C5B38A85E61B2E /* Pods */,
+				93AB0A8C9C30C2EDB06090C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		968ED3E62A1F75BC00304052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968ED3E52A1F75BC00304052 /* flutterBoost_swift.app */,
+				968ED3FB2A1F75BE00304052 /* flutterBoost_swiftTests.xctest */,
+				968ED4052A1F75BF00304052 /* flutterBoost_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968ED3E72A1F75BC00304052 /* flutterBoost_swift */ = {
+			isa = PBXGroup;
+			children = (
+				968ED41F2A208B1C00304052 /* SnapKit */,
+				968ED3E82A1F75BC00304052 /* AppDelegate.swift */,
+				968ED3EC2A1F75BC00304052 /* ViewController.swift */,
+				968ED41A2A1F7AD100304052 /* HomeViewController.swift */,
+				968ED41D2A1F7F8400304052 /* BoostDelegate.swift */,
+				968ED3EE2A1F75BC00304052 /* Main.storyboard */,
+				968ED3F12A1F75BE00304052 /* Assets.xcassets */,
+				968ED3F32A1F75BE00304052 /* LaunchScreen.storyboard */,
+				968ED3F62A1F75BE00304052 /* Info.plist */,
+			);
+			path = flutterBoost_swift;
+			sourceTree = "<group>";
+		};
+		968ED3FE2A1F75BE00304052 /* flutterBoost_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				968ED3FF2A1F75BE00304052 /* flutterBoost_swiftTests.swift */,
+			);
+			path = flutterBoost_swiftTests;
+			sourceTree = "<group>";
+		};
+		968ED4082A1F75BF00304052 /* flutterBoost_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				968ED4092A1F75BF00304052 /* flutterBoost_swiftUITests.swift */,
+				968ED40B2A1F75BF00304052 /* flutterBoost_swiftUITestsLaunchTests.swift */,
+			);
+			path = flutterBoost_swiftUITests;
+			sourceTree = "<group>";
+		};
+		968ED41F2A208B1C00304052 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				968ED4202A208B1C00304052 /* ConstraintMultiplierTarget.swift */,
+				968ED4212A208B1C00304052 /* LayoutConstraintItem.swift */,
+				968ED4222A208B1C00304052 /* ConstraintMakerPrioritizable.swift */,
+				968ED4232A208B1C00304052 /* ConstraintDescription.swift */,
+				968ED4242A208B1C00304052 /* ConstraintAttributes.swift */,
+				968ED4252A208B1C00304052 /* ConstraintViewDSL.swift */,
+				968ED4262A208B1C00304052 /* ConstraintPriorityTarget.swift */,
+				968ED4272A208B1C00304052 /* ConstraintInsets.swift */,
+				968ED4282A208B1C00304052 /* ConstraintMakerFinalizable.swift */,
+				968ED4292A208B1C00304052 /* ConstraintDSL.swift */,
+				968ED42A2A208B1C00304052 /* ConstraintMakerExtendable.swift */,
+				968ED42B2A208B1C00304052 /* ConstraintPriority.swift */,
+				968ED42C2A208B1C00304052 /* ConstraintInsetTarget.swift */,
+				968ED42D2A208B1C00304052 /* ConstraintDirectionalInsetTarget.swift */,
+				968ED42E2A208B1C00304052 /* ConstraintMakerRelatable+Extensions.swift */,
+				968ED42F2A208B1C00304052 /* ConstraintConfig.swift */,
+				968ED4302A208B1C00304052 /* UILayoutSupport+Extensions.swift */,
+				968ED4312A208B1C00304052 /* ConstraintView.swift */,
+				968ED4322A208B1C00304052 /* ConstraintLayoutGuide.swift */,
+				968ED4332A208B1C00304052 /* ConstraintLayoutSupport.swift */,
+				968ED4342A208B1C00304052 /* Typealiases.swift */,
+				968ED4352A208B1C00304052 /* ConstraintConstantTarget.swift */,
+				968ED4362A208B1C00304052 /* ConstraintOffsetTarget.swift */,
+				968ED4372A208B1C00304052 /* ConstraintMakerEditable.swift */,
+				968ED4382A208B1C00304052 /* ConstraintMaker.swift */,
+				968ED4392A208B1C00304052 /* ConstraintRelation.swift */,
+				968ED43A2A208B1C00304052 /* ConstraintLayoutGuideDSL.swift */,
+				968ED43B2A208B1C00304052 /* ConstraintView+Extensions.swift */,
+				968ED43C2A208B1C00304052 /* ConstraintItem.swift */,
+				968ED43D2A208B1C00304052 /* Constraint.swift */,
+				968ED43E2A208B1C00304052 /* Debugging.swift */,
+				968ED43F2A208B1C00304052 /* ConstraintRelatableTarget.swift */,
+				968ED4402A208B1C00304052 /* LayoutConstraint.swift */,
+				968ED4412A208B1C00304052 /* ConstraintLayoutGuide+Extensions.swift */,
+				968ED4422A208B1C00304052 /* ConstraintDirectionalInsets.swift */,
+				968ED4432A208B1C00304052 /* ConstraintLayoutSupportDSL.swift */,
+				968ED4442A208B1C00304052 /* ConstraintMakerRelatable.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968ED3E42A1F75BC00304052 /* flutterBoost_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968ED40F2A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swift" */;
+			buildPhases = (
+				30C1D888C6115E0158786144 /* [CP] Check Pods Manifest.lock */,
+				FB7EA589D208E10FAAF52622 /* [CP-User] Run Flutter Build flutter_module Script */,
+				968ED3E12A1F75BC00304052 /* Sources */,
+				968ED3E22A1F75BC00304052 /* Frameworks */,
+				968ED3E32A1F75BC00304052 /* Resources */,
+				6E844E250C17AF72F1766053 /* [CP-User] Embed Flutter Build flutter_module Script */,
+				13E13D34B78518EB6867C15F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flutterBoost_swift;
+			productName = flutterBoost_swift;
+			productReference = 968ED3E52A1F75BC00304052 /* flutterBoost_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		968ED3FA2A1F75BE00304052 /* flutterBoost_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968ED4122A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swiftTests" */;
+			buildPhases = (
+				062332111933C6227B8BD19A /* [CP] Check Pods Manifest.lock */,
+				968ED3F72A1F75BE00304052 /* Sources */,
+				968ED3F82A1F75BE00304052 /* Frameworks */,
+				968ED3F92A1F75BE00304052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968ED3FD2A1F75BE00304052 /* PBXTargetDependency */,
+			);
+			name = flutterBoost_swiftTests;
+			productName = flutterBoost_swiftTests;
+			productReference = 968ED3FB2A1F75BE00304052 /* flutterBoost_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		968ED4042A1F75BF00304052 /* flutterBoost_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968ED4152A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swiftUITests" */;
+			buildPhases = (
+				8828A65598A4BEB2226D538F /* [CP] Check Pods Manifest.lock */,
+				968ED4012A1F75BF00304052 /* Sources */,
+				968ED4022A1F75BF00304052 /* Frameworks */,
+				968ED4032A1F75BF00304052 /* Resources */,
+				87D4DB1BC1A134FEBC0EA129 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968ED4072A1F75BF00304052 /* PBXTargetDependency */,
+			);
+			name = flutterBoost_swiftUITests;
+			productName = flutterBoost_swiftUITests;
+			productReference = 968ED4052A1F75BF00304052 /* flutterBoost_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968ED3DD2A1F75BC00304052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					968ED3E42A1F75BC00304052 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					968ED3FA2A1F75BE00304052 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 968ED3E42A1F75BC00304052;
+					};
+					968ED4042A1F75BF00304052 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 968ED3E42A1F75BC00304052;
+					};
+				};
+			};
+			buildConfigurationList = 968ED3E02A1F75BC00304052 /* Build configuration list for PBXProject "flutterBoost_swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 968ED3DC2A1F75BC00304052;
+			productRefGroup = 968ED3E62A1F75BC00304052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968ED3E42A1F75BC00304052 /* flutterBoost_swift */,
+				968ED3FA2A1F75BE00304052 /* flutterBoost_swiftTests */,
+				968ED4042A1F75BF00304052 /* flutterBoost_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968ED3E32A1F75BC00304052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968ED3F52A1F75BE00304052 /* LaunchScreen.storyboard in Resources */,
+				968ED3F22A1F75BE00304052 /* Assets.xcassets in Resources */,
+				968ED3F02A1F75BC00304052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED3F92A1F75BE00304052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED4032A1F75BF00304052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062332111933C6227B8BD19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flutterBoost_swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13E13D34B78518EB6867C15F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift/Pods-flutterBoost_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift/Pods-flutterBoost_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift/Pods-flutterBoost_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C1D888C6115E0158786144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flutterBoost_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E844E250C17AF72F1766053 /* [CP-User] Embed Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		87D4DB1BC1A134FEBC0EA129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift-flutterBoost_swiftUITests/Pods-flutterBoost_swift-flutterBoost_swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift-flutterBoost_swiftUITests/Pods-flutterBoost_swift-flutterBoost_swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flutterBoost_swift-flutterBoost_swiftUITests/Pods-flutterBoost_swift-flutterBoost_swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8828A65598A4BEB2226D538F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flutterBoost_swift-flutterBoost_swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7EA589D208E10FAAF52622 /* [CP-User] Run Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968ED3E12A1F75BC00304052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968ED4532A208B1D00304052 /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				968ED4692A208B1D00304052 /* ConstraintMakerRelatable.swift in Sources */,
+				968ED4562A208B1D00304052 /* ConstraintView.swift in Sources */,
+				968ED4622A208B1D00304052 /* Constraint.swift in Sources */,
+				968ED45D2A208B1D00304052 /* ConstraintMaker.swift in Sources */,
+				968ED4682A208B1D00304052 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				968ED4592A208B1D00304052 /* Typealiases.swift in Sources */,
+				968ED44C2A208B1D00304052 /* ConstraintInsets.swift in Sources */,
+				968ED4492A208B1D00304052 /* ConstraintAttributes.swift in Sources */,
+				968ED44A2A208B1D00304052 /* ConstraintViewDSL.swift in Sources */,
+				968ED3ED2A1F75BC00304052 /* ViewController.swift in Sources */,
+				968ED45C2A208B1D00304052 /* ConstraintMakerEditable.swift in Sources */,
+				968ED41E2A1F7F8400304052 /* BoostDelegate.swift in Sources */,
+				968ED4472A208B1D00304052 /* ConstraintMakerPrioritizable.swift in Sources */,
+				968ED4672A208B1D00304052 /* ConstraintDirectionalInsets.swift in Sources */,
+				968ED44B2A208B1D00304052 /* ConstraintPriorityTarget.swift in Sources */,
+				968ED45B2A208B1D00304052 /* ConstraintOffsetTarget.swift in Sources */,
+				968ED45F2A208B1D00304052 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				968ED3E92A1F75BC00304052 /* AppDelegate.swift in Sources */,
+				968ED44F2A208B1D00304052 /* ConstraintMakerExtendable.swift in Sources */,
+				968ED41B2A1F7AD100304052 /* HomeViewController.swift in Sources */,
+				968ED45E2A208B1D00304052 /* ConstraintRelation.swift in Sources */,
+				968ED4502A208B1D00304052 /* ConstraintPriority.swift in Sources */,
+				968ED4452A208B1D00304052 /* ConstraintMultiplierTarget.swift in Sources */,
+				968ED4462A208B1D00304052 /* LayoutConstraintItem.swift in Sources */,
+				968ED4632A208B1D00304052 /* Debugging.swift in Sources */,
+				968ED4602A208B1D00304052 /* ConstraintView+Extensions.swift in Sources */,
+				968ED4512A208B1D00304052 /* ConstraintInsetTarget.swift in Sources */,
+				968ED4582A208B1D00304052 /* ConstraintLayoutSupport.swift in Sources */,
+				968ED4552A208B1D00304052 /* UILayoutSupport+Extensions.swift in Sources */,
+				968ED4482A208B1D00304052 /* ConstraintDescription.swift in Sources */,
+				968ED4612A208B1D00304052 /* ConstraintItem.swift in Sources */,
+				968ED4662A208B1D00304052 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				968ED4572A208B1D00304052 /* ConstraintLayoutGuide.swift in Sources */,
+				968ED4542A208B1D00304052 /* ConstraintConfig.swift in Sources */,
+				968ED4652A208B1D00304052 /* LayoutConstraint.swift in Sources */,
+				968ED44E2A208B1D00304052 /* ConstraintDSL.swift in Sources */,
+				968ED45A2A208B1D00304052 /* ConstraintConstantTarget.swift in Sources */,
+				968ED4522A208B1D00304052 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				968ED4642A208B1D00304052 /* ConstraintRelatableTarget.swift in Sources */,
+				968ED44D2A208B1D00304052 /* ConstraintMakerFinalizable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED3F72A1F75BE00304052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968ED4002A1F75BE00304052 /* flutterBoost_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968ED4012A1F75BF00304052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968ED40A2A1F75BF00304052 /* flutterBoost_swiftUITests.swift in Sources */,
+				968ED40C2A1F75BF00304052 /* flutterBoost_swiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968ED3FD2A1F75BE00304052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968ED3E42A1F75BC00304052 /* flutterBoost_swift */;
+			targetProxy = 968ED3FC2A1F75BE00304052 /* PBXContainerItemProxy */;
+		};
+		968ED4072A1F75BF00304052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968ED3E42A1F75BC00304052 /* flutterBoost_swift */;
+			targetProxy = 968ED4062A1F75BF00304052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		968ED3EE2A1F75BC00304052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968ED3EF2A1F75BC00304052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		968ED3F32A1F75BE00304052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968ED3F42A1F75BE00304052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		968ED40D2A1F75BF00304052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		968ED40E2A1F75BF00304052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968ED4102A1F75BF00304052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A12257D19E5FD6F57EAE1A /* Pods-flutterBoost_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flutterBoost_swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		968ED4112A1F75BF00304052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDFD03FDA17CF0C9BAE0CB1 /* Pods-flutterBoost_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flutterBoost_swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		968ED4132A1F75BF00304052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B6BF86E41B7FF9E78FA59D /* Pods-flutterBoost_swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flutterBoost_swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flutterBoost_swift";
+			};
+			name = Debug;
+		};
+		968ED4142A1F75BF00304052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6B8066AD431C539D001BB5 /* Pods-flutterBoost_swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flutterBoost_swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flutterBoost_swift";
+			};
+			name = Release;
+		};
+		968ED4162A1F75BF00304052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A452DB5D5B9334FB4DF089 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flutterBoost_swift;
+			};
+			name = Debug;
+		};
+		968ED4172A1F75BF00304052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDB824AB53CC5C7EE7E6842 /* Pods-flutterBoost_swift-flutterBoost_swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2AK7R7W78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xpz.flutterBoost-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flutterBoost_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968ED3E02A1F75BC00304052 /* Build configuration list for PBXProject "flutterBoost_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968ED40D2A1F75BF00304052 /* Debug */,
+				968ED40E2A1F75BF00304052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968ED40F2A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968ED4102A1F75BF00304052 /* Debug */,
+				968ED4112A1F75BF00304052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968ED4122A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968ED4132A1F75BF00304052 /* Debug */,
+				968ED4142A1F75BF00304052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968ED4152A1F75BF00304052 /* Build configuration list for PBXNativeTarget "flutterBoost_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968ED4162A1F75BF00304052 /* Debug */,
+				968ED4172A1F75BF00304052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968ED3DD2A1F75BC00304052 /* Project object */;
+}

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .red
+        window?.backgroundColor = .blue
         
         UITabBar.appearance().tintColor = UIColor.orange
         UINavigationBar.appearance().tintColor = UIColor.orange

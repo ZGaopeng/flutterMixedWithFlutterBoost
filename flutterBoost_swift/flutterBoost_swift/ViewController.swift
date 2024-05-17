@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "首页xyz1102"
+        self.title = "首页xyzmian"
     }
 
 
